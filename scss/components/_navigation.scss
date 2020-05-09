@@ -1,0 +1,22 @@
+.nav {
+    padding-left: 0;
+    flex-basis: $full-width;
+    display: flex;
+    flex-direction: column;
+    &-link {
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px 0;
+      display: block;
+      width: $full-width;
+      transition: 
+        background-color .2s ease-in-out, 
+        color .2s ease-in-out;
+        &:hover {
+          color: #fff;
+          background-color: $primary-color;
+        }
+    }
+  }
+  
+  
